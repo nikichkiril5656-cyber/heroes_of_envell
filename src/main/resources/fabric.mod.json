@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "envell",
+  "version": "${version}",
+  "name": "Герои Энвелла",
+  "description": "Мод по мотивам мультсериала «Герои Энвелла»: ноутбук-портал, Моргарт и гаджеты Вика.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.envell.EnvellMod"],
+    "client": ["ru.envell.EnvellClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

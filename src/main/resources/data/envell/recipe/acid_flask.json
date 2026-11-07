@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:glass_bottle" },
+    { "item": "minecraft:spider_eye" },
+    { "item": "minecraft:slime_ball" }
+  ],
+  "result": { "id": "envell:acid_flask", "count": 1 }
+}
